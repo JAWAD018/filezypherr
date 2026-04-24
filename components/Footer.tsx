@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Zap, Github, Twitter } from "lucide-react";
+import { Zap, Computer, Bird } from "lucide-react";
 
 const toolLinks = [
   { label: "PDF to Word", href: "/pdf-to-word" },
@@ -36,10 +36,10 @@ export default function Footer() {
             </p>
             <div className="flex gap-3">
               <a href="#" aria-label="GitHub" className="w-8 h-8 bg-slate-800 hover:bg-slate-700 rounded-lg flex items-center justify-center transition-colors">
-                <Github className="w-4 h-4" />
+                <Computer className="w-4 h-4" />
               </a>
               <a href="#" aria-label="Twitter" className="w-8 h-8 bg-slate-800 hover:bg-slate-700 rounded-lg flex items-center justify-center transition-colors">
-                <Twitter className="w-4 h-4" />
+                <Bird className="w-4 h-4" />
               </a>
             </div>
           </div>
