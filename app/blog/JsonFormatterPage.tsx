@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import ToolLayout from "@/components/ToolLayout";
-import JsonFormatterTool from "@/components/JsonFormatterTool";
+import JsonFormatterTool from "@/app/json-formatter/page";
 
 export const metadata: Metadata = {
   title: "JSON Formatter, Validator & Beautifier – Free Online Tool",
