@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import ToolLayout from "@/components/ToolLayout";
-import PdfToWordTool from "@/components/PdfToWordTool";
+import PdfToWordTool from "@/app/pdf-to-word/page";
 
 export const metadata: Metadata = {
   title: "Free PDF to Word Converter Online – No Email Required",
