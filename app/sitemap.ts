@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://filezypherr.vercel.app";
+  const baseUrl = "https://filezypher.vercel.app";
 
   const routes = [
     "",
