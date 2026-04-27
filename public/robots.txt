@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://filezypher.vercel.app/sitemap.xml
