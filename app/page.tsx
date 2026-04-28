@@ -14,10 +14,15 @@ import {
 } from "lucide-react";
 import ToolCard from "@/components/ToolCard";
 
-export const metadata: Metadata = {
+// app/layout.tsx
+
+export const metadata = {
   title: "FileZypher - Free Online File Converter & Utility Tools",
   description:
-    "Free online tools to convert, compress, and format files. PDF to Word, image compressor, JSON formatter, and more. No login required. Works in your browser.",
+    "Free online tools to convert, compress, and format files.",
+  alternates: {
+    canonical: "https://filezypher.vercel.app",
+  },
 };
 
 const tools = [
@@ -162,8 +167,8 @@ export default function HomePage() {
               className="text-5xl font-bold leading-[0.95] tracking-tight sm:text-6xl lg:text-7xl"
               style={{ fontFamily: "'Syne', sans-serif" }}
             >
-              File tools that feel
-              <span className="block text-cyan-300">instant, private, and easy</span>
+              Free Online File Converter,
+              <span className="block text-cyan-300"> Image Compressor & PDF Tools</span>
             </h1>
 
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-slate-200 sm:text-xl">
@@ -331,8 +336,10 @@ export default function HomePage() {
             Loved by millions for everyday file tasks
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg leading-8 text-cyan-50">
-            FileZypher keeps file utilities simple: fast tools, zero signup friction, and a homepage that points people straight to the job they need done.
-          </p>
+            FileZypher is a free online platform offering tools like PDF to Word conversion,
+            image compression, JPG to PNG conversion, and JSON formatting. All tools work
+            directly in your browser with no login required.
+            </p>
           <Link
             href="/pdf-to-word"
             className="mt-8 inline-flex min-h-[56px] items-center gap-2 rounded-2xl bg-white px-8 py-4 font-semibold text-sky-800 transition hover:bg-slate-100"
